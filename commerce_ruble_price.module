@@ -1,0 +1,14 @@
+<?php
+function commerce_ruble_price_commerce_currency_info_alter(&$currencies, $langcode) {
+    $currencies['RUB'] = array(
+      'code' => 'RUB',
+      'decimals' => 0,
+      'symbol' => 'р.',
+      'name' => t('Russian Ruble'),
+      'numeric_code' => '643',
+      'symbol_placement' => 'after',
+      'code_placement' => '',
+      'minor_unit' => t('Kopek'),
+      'major_unit' => t('Ruble'),
+    );
+}

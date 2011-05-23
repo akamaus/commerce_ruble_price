@@ -1,0 +1,4 @@
+name = Commerce ruble price
+description = Sets more succint format for displaying russian rubles
+package = Commerce
+core = 7.x
